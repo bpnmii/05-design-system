@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
-    "deploy-storybook": "NODE_OPTIONS=--openssl-legacy-provider storybook-to-ghpages",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
-  },
+ "scripts": {
+  "dev": "start-storybook -p 6006",
+  "build": "build-storybook",
+  "deploy-storybook": "storybook-to-ghpages"
+},
   "keywords": [],
   "author": "",
   "license": "MIT",
